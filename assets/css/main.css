@@ -1744,7 +1744,7 @@
 		}
 
 	body {
-		padding-top: 3em;
+		padding-top: 0;
 	}
 
 		@media screen and (max-width: 736px) {
