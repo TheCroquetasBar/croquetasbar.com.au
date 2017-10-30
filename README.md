@@ -1,4 +1,4 @@
-# The Croquetas Bar 
+![](https://github.com/TheCroquetasBar/frontend/blob/master/images/logo.png?raw=true)
 
 The Croquetas Bar page Static website made using [HTML5](https://html5up.net/) template Identity. No compilation required.
 
