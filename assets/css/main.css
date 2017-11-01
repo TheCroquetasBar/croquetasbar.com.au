@@ -607,7 +607,7 @@
 		}
 
 		.box.style2 {
-			padding: 3.5em 2.5em 3.5em 2.5em;
+			padding: 3em 2.5em 3em 2.5em;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1279,7 +1279,7 @@
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			width: 50%;
+			width: 100%;
 			position: relative;
 			opacity: 1.0;
 		}
@@ -1288,6 +1288,20 @@
 				margin: 0;
 				display: block;
 			}
+
+			.gallery article p {
+				position: absolute;
+				width: 100%;
+				text-align: center;
+				margin-top: 72px;
+				font-size: 60px;
+				color: white;
+				transition: all .4s ease-in-out;
+			}
+
+				.gallery article p:hover {
+					transform: scale(1.2);
+				}
 
 			.gallery article:nth-last-child(1n) {
 				-moz-transition-delay: 0.05s;
