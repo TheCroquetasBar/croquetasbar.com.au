@@ -1744,13 +1744,13 @@
 		}
 
 	body {
-		padding-top: 0;
+		padding-top: 3em;
 	}
 
 		@media screen and (max-width: 736px) {
 
 			body {
-				padding-top: 0;
+				padding-top: 2.5em;
 			}
 
 		}
