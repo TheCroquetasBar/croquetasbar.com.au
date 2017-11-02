@@ -1293,8 +1293,8 @@
 				position: absolute;
 				width: 100%;
 				text-align: center;
-				margin-top: 72px;
-				font-size: 60px;
+				margin-top: 0.975em;
+				font-size: 4em;
 				color: white;
 				transition: all .4s ease-in-out;
 			}
@@ -1673,6 +1673,11 @@
 				.gallery article {
 					width: 100%;
 				}
+
+					.gallery article p {
+						font-size: 2em;
+						margin-top: 0.5em;
+					}
 
 		}
 
