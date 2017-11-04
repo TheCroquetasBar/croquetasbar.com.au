@@ -487,6 +487,7 @@
 		line-height: 1.75em;
 		color: #39454b;
 		letter-spacing: 0.025em;
+		resize: none;
 	}
 
 		@media screen and (max-width: 1920px) {
@@ -1045,10 +1046,6 @@
 			margin: 1em 0 0 0;
 			padding: 0 0 0.5em 0;
 		}
-
-	footer {
-		margin-top: 2em;
-	}
 
 /* Table */
 
@@ -1708,7 +1705,8 @@
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(240, 240, 240, 0.95);
+		background: rgba(57, 69, 75, 0.95);
+		color: rgba(185, 186, 187, 1);
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -1721,6 +1719,7 @@
 			height: 3em;
 			line-height: 3em;
 			cursor: default;
+			color: rgba(205, 206, 207, 1);
 		}
 
 			#header h1 a {
