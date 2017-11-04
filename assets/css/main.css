@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
 
+@font-face {
+	font-family: Montana;
+	src: url(../fonts/Montana.otf);
+}
+
 /*
 	Big Picture by HTML5 UP
 	html5up.net | @ajlkn
@@ -476,8 +481,8 @@
 /* Type */
 
 	body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
-		font-weight: 300;
+		font-family: 'Lato Regular', sans-serif;
+		font-weight: 400;
 		font-size: 18pt;
 		line-height: 1.75em;
 		color: #39454b;
@@ -850,7 +855,7 @@
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #9ac8e9;
+			border-color: #98c593;
 		}
 
 	input[type="text"],
@@ -1306,10 +1311,11 @@
 				position: absolute;
 				width: 100%;
 				text-align: center;
-				margin-top: 0.975em;
-				font-size: 4em;
+				margin-top: 1.3em;
+				font-size: 3em;
+				font-weight: 900;
 				color: white;
-				transition: all .4s ease-in-out;
+				transition: all .2s ease-in-out;
 			}
 
 				.gallery article p:hover {
@@ -1702,7 +1708,7 @@
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(255, 255, 255, 0.95);
+		background: rgba(240, 240, 240, 0.95);
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -1827,8 +1833,9 @@
 		}
 
 			.main.style1 h2 {
-				font-size: 4.25em;
-				line-height: 1em;
+				font-size: 7.5em;
+				line-height: 0.7em;
+
 			}
 
 			.main.style1 > .content {
@@ -1903,6 +1910,14 @@
 				transform: translateX(100%);
 			}
 
+			.main.style2 p {
+				font-family: Lora;
+				font-size: 0.9em;
+				line-height: 1.6em;
+				font-weight: 400;
+				margin-top: -0.6em;
+			}
+
 		.main.style3 {
 			text-align: center;
 			padding: 6em 0 6em 0;
@@ -1918,6 +1933,10 @@
 
 			.main.style3.secondary {
 				background: #f5f6f7;
+			}
+
+			.main.style3 header p {
+				font-weight: 300;
 			}
 
 		.main.dark {
@@ -1983,7 +2002,7 @@
 			}
 
 				.main.style1 h2 {
-					font-size: 3em;
+					font-size: 6em;
 				}
 
 			.main.style2 {
@@ -2132,6 +2151,26 @@
 		background-repeat: repeat, no-repeat;
 	}
 
+	#intro .content {
+		padding-bottom: 2.5em;
+	}
+
+	#intro .content p {
+		font-family: 'Lato Regular', sans-serif;
+		font-size: 1.25em;
+		font-weight: 400;
+	}
+
+	.hola {
+		font-family: Montana;
+		font-weight: 100 !important;
+		transition: all .45s ease-in-out;
+	}
+
+		.hola:hover {
+			transform: scale(1.15);
+		}
+
 /* One */
 
 	#one {
@@ -2155,7 +2194,25 @@
 	#contact {
 		overflow: hidden;
 		padding-bottom: 0;
+		background: url("images/overlay.png"), url("../../images/contact.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
 	}
+
+		#contact header {
+			color: #ffffff;
+		}
+
+			#contact header h2 {
+				font-size: 3em;
+			}
+
+			#contact header p {
+				font-weight: 400;
+				font-size: 1.2em;
+			}
 
 		#contact .box {
 			-moz-transition: -moz-transform 1s ease;
@@ -2167,7 +2224,19 @@
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			position: relative;
+			border-radius: 25px;
+			margin-bottom: 2em;
 		}
+
+			#contact .box .field input {
+				background-color: rgba(255, 255, 255, 0.8);
+				color: #39454b;
+			}
+
+			#contact .box .field textarea {
+				background-color: rgba(255, 255, 255, 0.8);
+				color: #39454b;
+			}
 
 		#contact.inactive .box {
 			-moz-transform: translateY(100%);
@@ -2180,6 +2249,15 @@
 
 			#contact .box {
 				padding-bottom: 2em;
+			}
+
+			#contact header h2 {
+				font-size: 2.5em;
+			}
+
+			#contact header p {
+				font-weight: 400;
+				font-size: 1em;
 			}
 
 		}
