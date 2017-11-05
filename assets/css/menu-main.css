@@ -1588,11 +1588,16 @@
 
 	p {
 		margin: 0 0 2.25em 0;
+		font-size: 1.1em;
+		line-height: 1.6em;
+		font-family: Lora;
+		font-weight: 400;
+		letter-spacing: 0.025em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
-		font-weight: 700;
+		color: #39454b;
+		font-weight: 900;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
 	}
@@ -1604,8 +1609,9 @@
 		}
 
 	h2 {
-		font-size: 2em;
-		line-height: 1.5em;
+		font-size: 2.25em;
+		line-height: 1.25em;
+		letter-spacing: -0.05em;
 	}
 
 	h3 {
@@ -1661,14 +1667,14 @@
 		background: #555;
 		border-radius: 5px;
 		color: #fff;
-		font-family: "Source Sans Pro", monospace;
+		font-family: 'Lato Regular', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
 	}
 
 	pre {
-		font-family: "Source Sans Pro", monospace;
+		font-family: 'Lato Regular', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0 2.25em 0;
 	}
@@ -1726,15 +1732,17 @@
 	}
 
 	header.major h2 {
-		font-size: 3.5em;
-		color: #555;
+		font-size: 3em;
+		margin-bottom: 0.6em;
+		color: #39454b;
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #39454b;
 			font-size: 1.75em;
 			font-weight: 700;
-			margin-top: -0.75em;
+			margin-bottom: 0.3em;
+			font-family: 'Lato Regular', sans-serif;
 		}
 
 /* Form */
@@ -2042,11 +2050,12 @@
 			ul.feature-icons li {
 				text-decoration: none;
 				display: inline-block;
-				margin: 0 0 1.9em 0;
-				padding: 0.35em 0 0 3.5em;
+				margin: 0 0 1.6em 0;
+				padding: 0.35em 0 0 1.75em;
 				position: relative;
 				width: 48%;
 				font-family: Lora;
+				font-style: italic;
 			}
 
 				ul.feature-icons li:before {
@@ -2059,17 +2068,11 @@
 				}
 
 				ul.feature-icons li:before {
-					background: #98c593;
-					border-radius: 100%;
-					color: #ffffff;
+					color: rgba(57, 69, 75, 0.95);
 					display: block;
-					height: 2.5em;
 					left: 0;
-					line-height: 2.5em;
 					position: absolute;
 					text-align: center;
-					top: -0.3em;
-					width: 2.5em;
 				}
 
 		ul.icons {
@@ -2540,10 +2543,6 @@
 
 /* Main */
 
-	#main > section {
-		border-top: solid 6px #f4f4f4;
-	}
-
 		#main > section > .container {
 			padding: 6em 0 4em 0;
 		}
@@ -2583,7 +2582,12 @@
 /* Two */
 
 	#two {
+		margin-top: -5em !important;
 		padding-bottom: 5em;
+	}
+
+	#two p {
+		line-height: 0.8em;
 	}
 
 /* Footer */
@@ -2647,7 +2651,7 @@
 		/* Main */
 
 			#main > section > .container {
-				padding: 4em 0 2em 0;
+				padding: 4em 0 0 0;
 			}
 
 	}
