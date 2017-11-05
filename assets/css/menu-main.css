@@ -992,12 +992,39 @@
 	#menu {
 		overflow: hidden;
 		padding-bottom: 0;
-		background: url("images/overlay.png"), url("../../images/contact.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
 	}
+
+		#menu.set-menus {
+			background: url("images/overlay.png"), url("../../images/menus/set-menus.jpg");
+			background-size: 256px 256px, cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, bottom center;
+			background-repeat: repeat, no-repeat;
+		}
+
+		#menu.paellas {
+			background: url("images/overlay.png"), url("../../images/menus/paellas.jpg");
+			background-size: 256px 256px, cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, bottom center;
+			background-repeat: repeat, no-repeat;
+		}
+
+		#menu.croquetas {
+			background: url("images/overlay.png"), url("../../images/menus/croquetas.jpg");
+			background-size: 256px 256px, cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, bottom center;
+			background-repeat: repeat, no-repeat;
+		}
+
+		#menu.tapas-pinchos {
+			background: url("images/overlay.png"), url("../../images/menus/tapas-pinchos.jpg");
+			background-size: 256px 256px, cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, bottom center;
+			background-repeat: repeat, no-repeat;
+		}
 
 		#menu header {
 			color: #39454b;;
