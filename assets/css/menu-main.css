@@ -1023,6 +1023,10 @@
 			margin-top: 0.9em;
 		}
 
+		#menu p.thin {
+			font-weight: 200;
+		}
+
 		#menu .box {
 			-moz-transition: -moz-transform 1s ease;
 			-webkit-transition: -webkit-transform 1s ease;
