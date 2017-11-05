@@ -1910,7 +1910,7 @@
 			}
 
 			.main.style2 p {
-				font-family: Lora;
+				font-family: 'Lato Regular', sans-serif;
 				font-size: 0.9em;
 				line-height: 1.6em;
 				font-weight: 400;
@@ -1935,7 +1935,7 @@
 			}
 
 			.main.style3 header p {
-				font-weight: 300;
+				font-weight: 400;
 			}
 
 		.main.dark {
@@ -2164,6 +2164,7 @@
 		font-family: Montana;
 		font-weight: 100 !important;
 		transition: all .45s ease-in-out;
+		letter-spacing: 0.0125em;
 	}
 
 		.hola:hover {

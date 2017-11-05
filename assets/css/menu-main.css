@@ -758,7 +758,7 @@
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 2.25em 0;
+		margin: 0 0 0 0;
 		padding-left: 1.25em;
 	}
 
@@ -768,7 +768,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2.25em 0;
+		margin: 0 0 0 0;
 		padding-left: 1em;
 	}
 
@@ -805,6 +805,7 @@
 		width: 48%;
 		font-family: Lora;
 		font-style: italic;
+		font-weight: 200;
 	}
 
 	ul.feature-icons li:before {
@@ -1007,18 +1008,19 @@
 			}
 
 			#menu header p {
-				font-family: 'Lato Regular', sans-serif;
-				font-weight: 700;
+				font-family: 'Lato Black', sans-serif;
+				font-weight: 600;
 				font-size: 1.5em;
 				margin-top: 0.6em;
+				margin-bottom: -0.1em;
 			}
 
 		#menu p {
-			font-family: Lora;
+			font-family: 'Lato Regular', sans-serif;
 			font-size: 0.9em;
 			line-height: 1.6em;
 			font-weight: 400;
-			margin-top: -0.8em;
+			margin-top: 0.9em;
 		}
 
 		#menu .box {
