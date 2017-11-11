@@ -1926,10 +1926,6 @@
 				margin-bottom: 2em;
 			}
 
-			.main.style3.primary {
-				background: #ffffff;
-			}
-
 			.main.style3.secondary {
 				background: #f5f6f7;
 			}
@@ -1961,6 +1957,14 @@
 				.main.dark .button.style2.down {
 					background-image: url("images/dark-arrow.svg");
 				}
+
+		#menu {
+			background: #ffffff;
+		}
+
+		#events {
+			background: #e0e0e0;
+		}
 
 		body.is-touch .main {
 			background-attachment: scroll !important;
