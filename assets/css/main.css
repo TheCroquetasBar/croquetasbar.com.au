@@ -1958,7 +1958,7 @@
 					background-image: url("images/dark-arrow.svg");
 				}
 
-		#menu {
+		#catering {
 			background: #ffffff;
 		}
 
@@ -2144,9 +2144,9 @@
 
 		}
 
-/* Intro */
+/* Home */
 
-	#intro {
+	#home {
 		background: url("images/overlay.png"), url("../../images/intro.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2154,11 +2154,11 @@
 		background-repeat: repeat, no-repeat;
 	}
 
-	#intro .content {
+	#home .content {
 		padding-bottom: 2.5em;
 	}
 
-	#intro .content p {
+	#home .content p {
 		font-family: 'Lato Regular', sans-serif;
 		font-size: 1.25em;
 		font-weight: 400;
@@ -2166,7 +2166,7 @@
 
 	@media screen and (max-width: 736px) {
 
-		#intro .content p {
+		#home .content p {
 			font-size: 1em;
 		}
 
@@ -2186,7 +2186,7 @@
 
 /* One */
 
-	#one {
+	#about-us {
 		background: url("images/overlay.png"), url("../../images/one.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
