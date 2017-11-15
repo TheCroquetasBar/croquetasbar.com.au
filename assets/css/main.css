@@ -2180,11 +2180,11 @@
 
 	}
 
-	.hola {
+	.logo {
 		transition: all .45s ease-in-out;
 	}
 
-		.hola:hover {
+		.logo:hover {
 			transform: scale(1.15);
 		}
 
