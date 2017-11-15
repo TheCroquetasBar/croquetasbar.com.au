@@ -608,7 +608,7 @@
 
 		.box.style2 {
 			padding: 2em 2em 2em 2em;
-			border-radius: 25px 0 0 25px;
+			border-radius: 25px;
 		}
 
 		.box.style1 {
@@ -1935,6 +1935,10 @@
 				line-height: 1.6em;
 				font-weight: 400;
 				margin-top: -0.6em;
+			}
+
+			.main.style2 h2 {
+				text-align: center;
 			}
 
 		.main.style3 {
