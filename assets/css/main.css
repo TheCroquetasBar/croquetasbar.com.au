@@ -1,10 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
-
-@font-face {
-	font-family: Montana;
-	src: url(../fonts/Montana.otf);
-}
 
 /*
 	Big Picture by HTML5 UP
@@ -481,7 +475,7 @@
 /* Type */
 
 	body, input, textarea, select {
-		font-family: 'Lato Regular', sans-serif;
+		font-family: 'Kameron', serif;
 		font-weight: 400;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -614,7 +608,7 @@
 
 		.box.style2 {
 			padding: 2em 2em 2em 2em;
-			border-radius: 25px 0 0 25px;
+			border-radius: 25px;
 		}
 
 		.box.style1 {
@@ -1041,6 +1035,12 @@
 		margin-bottom: 1em;
 	}
 
+		header h2 {
+			font-family: 'Lobster Two', cursive;
+			font-size: 3em;
+			letter-spacing: 0.002em;
+		}
+
 		header p {
 			display: block;
 			margin: 1em 0 0 0;
@@ -1286,10 +1286,10 @@
 	}
 
 		.gallery article {
-			-moz-transition: -moz-transform 1s ease, opacity 1s ease;
-			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
-			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
-			transition: transform 1s ease, opacity 1s ease;
+			-moz-transition: -moz-transform 0.8s ease, opacity 0.8s ease;
+			-webkit-transition: -webkit-transform 0.8s ease, opacity 0.8s ease;
+			-ms-transition: -ms-transform 0.8s ease, opacity 0.8s ease;
+			transition: transform 0.8s ease, opacity 0.8s ease;
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
@@ -1305,10 +1305,11 @@
 			}
 
 			.gallery article p {
+				font-family: 'Lobster Two', cursive;
 				position: absolute;
 				width: 100%;
 				text-align: center;
-				margin-top: 1.3em;
+				margin-top: 0.7em;
 				font-size: 3em;
 				font-weight: 900;
 				color: white;
@@ -1673,7 +1674,33 @@
 				transform: translateY(7em);
 			}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 800px) {
+
+			.gallery article {
+				width: 100%;
+			}
+
+			.gallery article p {
+				font-size: 2.2em;
+				margin-top: 0.6em;
+			}
+
+		}
+
+		@media screen and (max-width: 620px) {
+
+			.gallery article {
+				width: 100%;
+			}
+
+			.gallery article p {
+				font-size: 1.9em;
+				margin-top: 0.4em;
+			}
+
+		}
+
+		@media screen and (max-width: 440px) {
 
 			.gallery {
 				-moz-flex-wrap: nowrap;
@@ -1691,8 +1718,8 @@
 				}
 
 					.gallery article p {
-						font-size: 2em;
-						margin-top: 0.5em;
+						font-size: 1.6em;
+						margin-top: 0.2em;
 					}
 
 		}
@@ -1700,12 +1727,14 @@
 /* Header */
 
 	#header {
+		font-family: 'Raleway', sans-serif;
+		font-weight: 600;
 		position: fixed;
 		z-index: 10000;
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(57, 69, 75, 0.95);
+		background: rgba(57, 69, 75, 1);
 		color: rgba(185, 186, 187, 1);
 		height: 3em;
 		line-height: 3em;
@@ -1716,22 +1745,14 @@
 			position: absolute;
 			left: 1em;
 			top: 0;
-			height: 3em;
-			line-height: 3em;
 			cursor: default;
 			color: rgba(205, 206, 207, 1);
 		}
-
-			#header h1 a {
-				font-size: 1.25em;
-			}
 
 		#header nav {
 			position: absolute;
 			right: 0.5em;
 			top: 0;
-			height: 3em;
-			line-height: 3em;
 		}
 
 			#header nav ul {
@@ -1741,17 +1762,19 @@
 				#header nav ul li {
 					display: inline-block;
 					margin-left: 0.5em;
-					font-size: 0.9em;
+					font-size: 0.8em;
 				}
 
 					#header nav ul li a {
 						display: block;
 						color: inherit;
 						text-decoration: none;
-						height: 3em;
-						line-height: 3em;
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
+					}
+
+					#header nav ul li a:hover {
+						color: rgba(225, 226, 227, 1);
 					}
 
 		@media screen and (max-width: 736px) {
@@ -1766,8 +1789,6 @@
 					position: relative;
 					left: 0;
 					top: 0;
-					height: 2.5em;
-					line-height: 2.5em;
 				}
 
 					#header h1 a {
@@ -1910,11 +1931,14 @@
 			}
 
 			.main.style2 p {
-				font-family: 'Lato Regular', sans-serif;
 				font-size: 0.9em;
 				line-height: 1.6em;
 				font-weight: 400;
 				margin-top: -0.6em;
+			}
+
+			.main.style2 h2 {
+				text-align: center;
 			}
 
 		.main.style3 {
@@ -1958,7 +1982,7 @@
 					background-image: url("images/dark-arrow.svg");
 				}
 
-		#menu {
+		#catering {
 			background: #ffffff;
 		}
 
@@ -2144,9 +2168,9 @@
 
 		}
 
-/* Intro */
+/* Home */
 
-	#intro {
+	#home {
 		background: url("images/overlay.png"), url("../../images/intro.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2154,39 +2178,54 @@
 		background-repeat: repeat, no-repeat;
 	}
 
-	#intro .content {
+	#home .content {
 		padding-bottom: 2.5em;
 	}
 
-	#intro .content p {
-		font-family: 'Lato Regular', sans-serif;
-		font-size: 1.25em;
+	#home .content p {
+		font-family: 'Lobster Two', cursive;
+		margin-bottom: 0.3em;
+		letter-spacing: 0;
+	}
+
+	#home .content p.title {
+		font-size: 1.6em;
+		font-weight: 700;
+	}
+
+	#home .content p.subtitle {
+		font-size: 1.3em;
 		font-weight: 400;
+	}
+
+	#home .content a {
+		font-family: 'Kameron', serif;
+		margin-top: 2.5em;
 	}
 
 	@media screen and (max-width: 736px) {
 
-		#intro .content p {
-			font-size: 1em;
+		#home .content p.title {
+			font-size: 1.4em;
+		}
+
+		#home .content p.subtitle {
+			font-size: 1.2em;
 		}
 
 	}
 
-
-	.hola {
-		font-family: Montana;
-		font-weight: 100 !important;
+	.logo {
 		transition: all .45s ease-in-out;
-		letter-spacing: 0.0125em;
 	}
 
-		.hola:hover {
+		.logo:hover {
 			transform: scale(1.15);
 		}
 
 /* One */
 
-	#one {
+	#about-us {
 		background: url("images/overlay.png"), url("../../images/one.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
