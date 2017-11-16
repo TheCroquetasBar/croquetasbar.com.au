@@ -2005,6 +2005,18 @@
 					transform: scale(1.1);
 				}
 
+		@media screen and (max-width: 480px) {
+
+			#gallery .photo img {
+				width: 12em;
+			}
+
+			#gallery .photo img:hover {
+				transform: none;
+			}
+
+		}
+
 		#events {
 			background: #e0e0e0;
 		}
@@ -2230,6 +2242,10 @@
 
 		#home .content p.subtitle {
 			font-size: 1.2em;
+		}
+
+		#home .content a {
+			margin-top: 1.5em;
 		}
 
 	}
