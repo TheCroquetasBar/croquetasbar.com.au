@@ -9,8 +9,10 @@
 		userId: 5703845175,
 		accessToken: res,
 		sortBy: 'most-recent',
-		limit: 6,
-		template: '<a href="{{link}}"><img src="{{image}}" /></a>'
+		limit: 4,
+		type: 'image',
+		orientation: 'square',
+		template: '<a class="photo" href="{{link}}" target="_blank"><img src="{{image}}" /></a>'
 	});
 	feed.run();
 

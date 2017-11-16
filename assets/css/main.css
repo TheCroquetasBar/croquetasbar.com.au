@@ -1990,6 +1990,21 @@
 			background: #ffffff;
 		}
 
+			#gallery .photo {
+				margin: 0.2em;
+
+			}
+
+				#gallery .photo img {
+					width: 10em;
+					box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+					transition: all .45s ease-in-out;
+				}
+
+				#gallery .photo img:hover {
+					transform: scale(1.1);
+				}
+
 		#events {
 			background: #e0e0e0;
 		}
