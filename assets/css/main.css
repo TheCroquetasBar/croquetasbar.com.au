@@ -1987,7 +1987,7 @@
 		}
 
 		#gallery {
-			background: #ffffff;
+			background: #e0e0e0;
 		}
 
 			#gallery .photo {
@@ -2018,7 +2018,7 @@
 		}
 
 		#events {
-			background: #e0e0e0;
+			background: #ffffff;
 		}
 
 		body.is-touch .main {
