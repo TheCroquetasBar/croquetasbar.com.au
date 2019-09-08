@@ -10,3 +10,5 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 data.yml
+.vs
+.vscode
